@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
   <div class="wrapper">
     <header>
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -22,12 +23,17 @@
       {% if site.logo %}
       <img src="{{site.logo | relative_url}}" alt="Logo" />
       {% endif %}
+      
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+      <h2>Now playing</h2>
+
+      <p id="now_playing"></p>
+      
       <audio controls>
         <source src="https://computeradio.out.airtime.pro//computeradio_a" type="audio/mpeg" />
       </audio>
 
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
 
       {% if site.show_downloads %}
       <ul class="downloads">
@@ -54,7 +60,35 @@
       </p>
     </footer>
   </div>
+
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+  <script>
+    // Function to fetch data from an API and populate the div
+    document.addEventListener('DOMContentLoaded', function() {
+      // API endpoint (replace with your API URL)
+      const apiUrl = 'https://computeradio.airtime.pro/api/live-info'; // Example API
+
+      // Fetch data from the API
+      fetch(apiUrl)
+          .then(response => response.json())  // Parse the JSON response
+          .then(data => {
+              // Extract data to display (this depends on your API structure)
+              const showName = data.currentShow[0].name;
+              const showLocation = data.currentShow[0].description;
+
+              // Update the div with the response data
+              document.getElementById('now_playing').innerHTML = showName + " - " + showLocation;
+
+          })
+          .catch(error => {
+              // Handle errors (e.g., if API request fails)
+              document.getElementById('result').innerHTML = `Error: ${error}`;
+          });
+      });
+      
+  </script>
+
 </body>
 
 </html>
