@@ -11,4 +11,4 @@ layout: default
 [Full archive](./another-page.html)
 
 # About
-Compute is a no profit community radio, home of computer musicians in London, the UK and beyond.
+Compute is a no profit community radio, the home of computer musicians in London, the UK and beyond.
