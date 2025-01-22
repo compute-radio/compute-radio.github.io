@@ -47,7 +47,6 @@
       <p>
         <a href="https://www.instagram.com/compute.radio/">Instagram</a><br />
         <a href="mailto:studio@compute.radio">Email</a><br />
-        By Giovanni in London, 2025.
       </p>
     </footer>
   </div>
@@ -66,10 +65,11 @@
           .then(data => {
               // Extract data to display (this depends on your API structure)
               const showName = data.currentShow[0].name;
-              const showLocation = data.currentShow[0].description;
+              const showLocation = data.currentShow[0].url;
+              const showDescription = data.currentShow[0].description;
 
               // Update the div with the response data
-              document.getElementById('now_playing').innerHTML = showName + " - " + showLocation;
+              document.getElementById('now_playing').innerHTML = "<b>" + showName + "</b></br><i>" + showLocation + "</i></br>" + showDescription;
 
           })
           .catch(error => {
