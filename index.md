@@ -3,9 +3,10 @@ layout: default
 ---
 
 # Schedule
-17/03/2025 7pm GMT: Recording of a night of computer music in Peckham. Music from: Greg, Mathr, Jaza, Tode, Pastagang, Boggo, Giovanni, m-onz, everysongiown, Synthel8 & Boggo.
+07/04/2025 7pm GMT: A one-hour mix blending ASMR-like recordings of hard drives and close-miked computers with both released and unreleased material from Partial Defrag.
 
 # Archive
+[17/03/2025 Algorhythms 2](https://www.mixcloud.com/computedotradio/algorhythms-2/)
 [10/03/2025 Giovanni's Mix 1](https://www.mixcloud.com/computedotradio/giovannis-mix-1/)<br/>
 [03/03/2025 everysongiown 1](https://www.mixcloud.com/computedotradio/everysongiown-1/)<br/>
 [24/02/2025 Algorhythms 1](https://www.mixcloud.com/computedotradio/algorhythms-1/)<br/>
