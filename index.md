@@ -3,9 +3,10 @@ layout: default
 ---
 
 # Schedule
-07/04/2025 7pm GMT: A one-hour mix blending ASMR-like recordings of hard drives and close-miked computers with both released and unreleased material from Partial Defrag.
+14/04/2025 7pm GMT - everysongiown 2: everysongiown is back with his unique approach to deconstructed pop.
 
 # Archive
+[07/04/2025 Partial Defrag - HDD sounds special](https://www.mixcloud.com/computedotradio/partial-defrag-hdd-sounds-special/)<br/>
 [17/03/2025 Algorhythms 2](https://www.mixcloud.com/computedotradio/algorhythms-2/)<br/>
 [10/03/2025 Giovanni's Mix 1](https://www.mixcloud.com/computedotradio/giovannis-mix-1/)<br/>
 [03/03/2025 everysongiown 1](https://www.mixcloud.com/computedotradio/everysongiown-1/)<br/>
