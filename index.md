@@ -3,9 +3,10 @@ layout: default
 ---
 
 # Schedule
-21/04/2025 7pm GMT - Shankar Saanthakumar & Boris Allenou: [BA][SS]
+28/04/2025 7pm GMT: Giovanni - "The Death of Rave" label retrospective
 
 # Archive
+21/04/2025 Shankar Saanthakumar & Boris Allenou - [BA][SS]<br/>
 14/04/2025 everysongiown - April show<br/>
 [07/04/2025 Partial Defrag - HDD sounds special](https://www.mixcloud.com/computedotradio/partial-defrag-hdd-sounds-special/)<br/>
 [17/03/2025 Algorhythms 2](https://www.mixcloud.com/computedotradio/algorhythms-2/)<br/>
