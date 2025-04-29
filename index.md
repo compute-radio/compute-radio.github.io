@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Schedule
-28/04/2025 7pm GMT: Ypnida
+05/05/2025 7pm GMT: Ypnida
 
 # Archive
 28/04/2025 Giovanni - "The Death of Rave" label retrospective<br/>
